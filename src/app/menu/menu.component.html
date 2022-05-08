@@ -1,0 +1,12 @@
+<nav>
+  <ul>
+    <li
+      *ngFor="let bridge of bridges"
+      title="{{ bridge.name | titlecase}}"
+      (click) = "onSelectedBridge(bridge)"
+      >
+      {{ bridge.name | titlecase}}
+    </li>
+  </ul>
+</nav>
+

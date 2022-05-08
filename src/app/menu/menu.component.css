@@ -1,0 +1,19 @@
+ ul{
+   margin: 0;
+   padding: 0;
+ }
+
+ li{
+   background-color: #2D4263;
+   color: #ECDBBA;
+   padding: 0.25em;
+   cursor: pointer;
+   border-left: 4px solid transparent;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+ }
+
+li:hover{
+  border-left: 4px solid #C84B31;
+}

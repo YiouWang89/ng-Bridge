@@ -1,0 +1,14 @@
+
+<h2
+  *ngIf="bridge"
+  >
+  {{bridge.name | titlecase}}
+</h2>
+
+<div
+  class="bridge-stats"
+  *ngIf="bridge">
+  <div>Year: {{bridge.year}} ({{getAge()}} year)</div>
+  <div>Width: {{getWidth()}}</div>
+  <div>Length: {{getLength()}}</div>
+</div>
